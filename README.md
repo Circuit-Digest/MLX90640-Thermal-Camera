@@ -6,7 +6,9 @@
 <br>
 <a href="https://circuitdigest.com/tags/ESP32"><img src="https://img.shields.io/static/v1?label=&labelColor=505050&message=ESP32 Tutorials Circuit Digest&color=%230076D6&style=social&logo=google-chrome&logoColor=%230076D6" alt="circuitdigest"/></a>
 <br>
-![alt_text](https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/0167223e7488621532f365a04af956449e816380/Images/ThermalCamera0005.bmp) ![alt_text](https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/main/Images/ThermalCamera0007.bmp) ![alt_text](https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/main/Images/ThermalCamera0014.bmp)
+![alt_text](https://raw.githubusercontent.com/jobitjoseph/MLX90640-Thermal-Camera/main/Images/ThermalCamera0005.bmp) 
+![alt_text](https://raw.githubusercontent.com/jobitjoseph/MLX90640-Thermal-Camera/main/Images/ThermalCamera0007.bmp) 
+![alt_text](https://raw.githubusercontent.com/jobitjoseph/MLX90640-Thermal-Camera/main/Images/ThermalCamera0014.bmp)
 
 <div style="display: flex; flex-wrap: nowrap;">
     <img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/0167223e7488621532f365a04af956449e816380/Images/ThermalCamera0005.bmp" alt="alt_text" title="image_tooltip" style="max-width: 33vw; height: auto;">
