@@ -9,7 +9,8 @@
 <div style="display: flex; flex-wrap: nowrap;">
     <img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/0167223e7488621532f365a04af956449e816380/Images/ThermalCamera0005.bmp" alt="alt_text" title="image_tooltip" style="max-width: 33vw; height: auto;">
     <img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/main/Images/ThermalCamera0007.bmp" alt="alt_text" title="image_tooltip" style="max-width: 33vw; height: auto;">
-    <img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/main/Images/ThermalCamera0014.bmp" alt="alt_text" title="image_tooltip" style="max-width: 33vw; height: auto;">
+    <img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/main/Images/ThermalCamera0006.bmp.bmp" alt="alt_text" title="image_tooltip" style="max-width: 33vw; height: auto;">
+    <img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/main/Images/ThermalCamera0004.bmp" alt="alt_text" title="image_tooltip" style="max-width: 33vw; height: auto;">
 </div>
 <h1>Click here](https://circuitdigest.com/tags/ESP32) For other ESP32 tutorials.</h1>
 <img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/a2da329e4e4677f0a6d214a063b1dcc97c424561/Images/Thermal_Camera_OV.png" width="" alt="alt_text" title="image_tooltip">
