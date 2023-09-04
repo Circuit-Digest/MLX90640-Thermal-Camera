@@ -18,7 +18,7 @@
 <a href="https://circuitdigest.com/tags/ESP32"><img src="https://img.shields.io/static/v1?label=&labelColor=505050&message=ESP32 Tutorials Circuit Digest&color=%230076D6&style=social&logo=google-chrome&logoColor=%230076D6" alt="circuitdigest"/></a>
 <br>
 
-[<h1>Click here](https://circuitdigest.com/tags/ESP32) For other ESP32 tutorials.</h1>
+<h1>[Click here](https://circuitdigest.com/tags/ESP32) For other ESP32 tutorials.</h1>
 
 <br>
 Thermal Cameras are widely used in a wide range of industrial applications such as thermal performance monitoring, detecting temperature anomalies, thermal bench marking and many more. We even use thermal imaging even for defense and military applications. The most common application that we may come across, is might be the electronics repair industry. In repair industry the thermal cameras are a very important tool which can make the hardware debugging much easier especially where there are shorted parts are involved. The main concern regarding such thermal imager is that they are pretty expensive. 
