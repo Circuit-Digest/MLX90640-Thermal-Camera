@@ -8,9 +8,19 @@
 <br>
 
 [<h1>Click here](https://circuitdigest.com/tags/ESP32) For other ESP32 tutorials.</h1>
-<img src="https://github.com/Circuit-Digest/ESP32-SmartWatch/blob/6f61098322965cccb96df0f72b6173e037986a09/5b524cfe-3bc1-4b98-a26f-c42a085585a5.PNG" width="" alt="alt_text" title="image_tooltip">
-<br><img src="https://github.com/Circuit-Digest/ESP32-SmartWatch/blob/6f61098322965cccb96df0f72b6173e037986a09/5b524cfe-3bc1-4b98-a26f-c42a085585a5.PNG" width="" alt="alt_text" title="image_tooltip">
-<br><img src="https://github.com/Circuit-Digest/ESP32-SmartWatch/blob/af322ba374e2ac930c75bd0d09a540f4c90b5f0e/assembled%20.PNG" width="" alt="alt_text" title="image_tooltip">
+<img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/a2da329e4e4677f0a6d214a063b1dcc97c424561/Images/Thermal_Camera_OV.png" width="" alt="alt_text" title="image_tooltip">
+<br><img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/a2da329e4e4677f0a6d214a063b1dcc97c424561/Images/Thermal_Camera_dsp.png" width="" alt="alt_text" title="image_tooltip">
+<br><img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/a2da329e4e4677f0a6d214a063b1dcc97c424561/Images/Thermal_Camera_menu.png" width="" alt="alt_text" title="image_tooltip">
+<br><img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/a2da329e4e4677f0a6d214a063b1dcc97c424561/Images/PCB-3D.png" width="" alt="alt_text" title="image_tooltip">
+<br><img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/a2da329e4e4677f0a6d214a063b1dcc97c424561/Images/Enclosure%203D.PNG" width="" alt="alt_text" title="image_tooltip">
+<br><img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/4a88f7f3a5611b039752ec0dfee07b7630540188/Images/4736be43-5e6e-4584-9259-6b25d07245be.PNG" width="" alt="alt_text" title="image_tooltip">
+<br><img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/0167223e7488621532f365a04af956449e816380/Images/ThermalCamera0005.bmp" width="" alt="alt_text" title="image_tooltip">
+<img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/main/Images/ThermalCamera0007.bmp" width="" alt="alt_text" title="image_tooltip">
+<img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/main/Images/ThermalCamera0014.bmp" width="" alt="alt_text" title="image_tooltip">
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
