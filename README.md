@@ -1,4 +1,4 @@
-# MLX90640-Thermal-Camera <a href = "https://circuitdigest.com/microcontroller-projects/diy-thermal-camera-using-esp32-wrover-module-and-mlx90640-sensor"/></a>
+# MLX90640-Thermal-Camera 
 
 <img src="https://github.com/jobitjoseph/MLX90640-Thermal-Camera/blob/f54ab2375331b49c7481d0937c16a8d8970cc969/Images/Thermal%20Camera.jpg" width="" alt="alt_text" title="image_tooltip">
 <br>
