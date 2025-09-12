@@ -576,33 +576,56 @@ void displayUpdate() {
   drawBattery(batpc);
   if (Menu == 1) {
     MenuChange = false;
+
+    // Draw menu background
     sprite.fillRect(60, 40, 200, 120, TFT_BLACK);
-    sprite.fillRect(60, 40, 200, 10, TFT_WHITE);
-    sprite.setTextFont(0);
+    sprite.drawRect(60, 40, 200, 120, TFT_WHITE);  // Add border for visibility
+
+    // Draw menu header
+    sprite.fillRect(60, 40, 200, 15, TFT_WHITE);
+    sprite.setTextFont(1);  // Use font 1 instead of 0 for better visibility
     sprite.setTextSize(1);
-    sprite.setTextColor(TFT_BLACK);
-    sprite.drawString("Settings", 140, 41);
-    sprite.setTextColor(TFT_WHITE);
+    sprite.setTextColor(TFT_BLACK, TFT_WHITE);  // Set background color for text
+    sprite.drawString("Settings", 135, 42);     // Centered text
+
+    // Draw menu items
+    sprite.setTextColor(TFT_WHITE, TFT_BLACK);  // White text on black background
+    sprite.setTextFont(1);
+    sprite.setTextSize(1);
+
     for (int i = 0; i < 7; i++) {
-      if (i == Menuitem) sprite.setTextColor(TFT_GREEN);
-      int y = 55 + (15 * i);
-      sprite.drawString(menuItems[i], 65, y);
-      if (i == 0) {
-        sprite.drawString(ASindex[AutoScale], 160, y);
-      } else if (i == 1) {
-        sprite.drawString(String(MinT) + " C", 160, y);
-      } else if (i == 2) {
-        sprite.drawString(String(MaxT) + " C", 160, y);
-      } else if (i == 3) {
-        sprite.drawString(IPindex[interpolationMode], 160, y);
-      } else if (i == 4) {
-        sprite.drawString("Palette " + String(paletteIndex), 160, y);
-      } else if (i == 5) {
-        sprite.drawString(RRindex[RefreshRate], 160, y);
-      } else if (i == 6) {
-        sprite.drawString(String(BLPWM) + " %", 160, y);
+      int y = 58 + (14 * i);  // Adjusted spacing
+
+      // Highlight selected item
+      if (i == Menuitem) {
+        sprite.fillRect(62, y - 1, 196, 12, TFT_DARKGREY);  // Background highlight
+        sprite.setTextColor(TFT_GREEN, TFT_DARKGREY);
+      } else {
+        sprite.setTextColor(TFT_WHITE, TFT_BLACK);
       }
-      sprite.setTextColor(TFT_WHITE);
+
+      // Draw menu item label
+      sprite.drawString(menuItems[i], 65, y);
+
+      // Draw menu item value
+      String valueStr = "";
+      if (i == 0) {
+        valueStr = ASindex[AutoScale];
+      } else if (i == 1) {
+        valueStr = String((int)MinT) + " C";
+      } else if (i == 2) {
+        valueStr = String((int)MaxT) + " C";
+      } else if (i == 3) {
+        valueStr = IPindex[interpolationMode];
+      } else if (i == 4) {
+        valueStr = "Pal " + String(paletteIndex);
+      } else if (i == 5) {
+        valueStr = RRindex[RefreshRate];
+      } else if (i == 6) {
+        valueStr = String(BLPWM) + "%";
+      }
+
+      sprite.drawString(valueStr, 170, y);
     }
   }
   sprite.pushSprite(0, 0);
@@ -769,7 +792,7 @@ void GIFDraw1(GIFDRAW *pDraw) {
         }
       }
       if (d > &usTemp[0]) {
-        sprite.pushImage(pDraw->iX + x +80, y + 40, d - &usTemp[0], 1, usTemp);  // Push the image to the sprite
+        sprite.pushImage(pDraw->iX + x + 80, y + 40, d - &usTemp[0], 1, usTemp);  // Push the image to the sprite
         x += d - &usTemp[0];
       }
       c = ucTransparent;
@@ -786,7 +809,7 @@ void GIFDraw1(GIFDRAW *pDraw) {
     for (x = 0; x < iWidth; x++) {
       usTemp[x] = usPalette[*s++];
     }
-    sprite.pushImage(pDraw->iX + 80 , y + 40 , iWidth, 1, usTemp);  // Push the image to the sprite
+    sprite.pushImage(pDraw->iX + 80, y + 40, iWidth, 1, usTemp);  // Push the image to the sprite
   }
 }
 
